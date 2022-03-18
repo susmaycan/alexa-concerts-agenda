@@ -1,0 +1,16 @@
+@start
+	*say
+		Hello World
+	*then
+		hear hi there {
+			-> start
+		}
+
+@coso
+	*say
+		coso
+	*then
+		hear po {
+			-> start
+		}
+
